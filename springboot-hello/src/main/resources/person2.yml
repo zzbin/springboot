@@ -1,7 +1,5 @@
-server:
-  port: 8081
-person1:
-  last_name: hello1
+person2:
+  last-name: hello2
   age: 18
   boss: false
   birth: 2017/12/12
@@ -10,5 +8,5 @@ person1:
     - lisi
     - zhaoliu
   dog:
-    name: 小狗1
+    name: '\u5C0F\u72D72'
     age: 12
