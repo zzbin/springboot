@@ -2,6 +2,7 @@ package com.ahbin.bean;
 
 import lombok.Data;
 import lombok.ToString;
+import org.hibernate.validator.constraints.Email;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Component;
@@ -17,7 +18,7 @@ import java.util.Map;
 @ConfigurationProperties(prefix = "person")
 public class Person {
     //lastName必须是邮箱格式
-    // @Email
+//     @Email
     //@Value("${person.last-name}")
     private String lastName;
     //@Value("#{11*2}")

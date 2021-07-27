@@ -29,7 +29,6 @@ public class YamlPropertySourceFactory implements PropertySourceFactory {
 
     private Properties loadYamlIntoProperties(EncodedResource resource) throws IOException {
         try {
-            resource = new EncodedResource(resource.getResource(), "UTF-8");
             YamlPropertiesFactoryBean factory = new YamlPropertiesFactoryBean();
             factory.setResources(resource.getResource());
             factory.afterPropertiesSet();
