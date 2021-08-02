@@ -1,7 +1,8 @@
 spring:
   profiles:
     active: test
-
+CATALINA_HOME: tttttt
+fileUrl: 1111111
 ---
 spring:
   profiles: dev

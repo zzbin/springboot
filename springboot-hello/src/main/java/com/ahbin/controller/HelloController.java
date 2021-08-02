@@ -32,6 +32,7 @@ public class HelloController {
 //        for (String name : beanDefinitionNames){
 //            System.out.println(name);
 //        }
+        System.out.println("中文");
         return "hello world";
     }
 
